@@ -8,6 +8,7 @@
 
 :root {
     --main-color:#FF6919;
+    --secondary-color:#FFAC7F;
     --dark-gray:#555555;
     --mid-gray:#757575;
     --light-gray:#909090;
@@ -57,6 +58,11 @@ div.sidebar {
     outline: thick solid var(--mid-gray);
 }
 
+div.msg {
+    height: auto;
+    background-color: var(--dark-gray);
+}
+
 img  {
     width:100%;
 }
@@ -76,6 +82,8 @@ img.buttonpic {
 
 p {
     font-family:"Palatino Linotype", Georgia, "Times New Roman",Serif;
+    color: white;
+    padding: 0.5% 0.5% 0 1%;
 }
 
 .h1 {
@@ -86,7 +94,8 @@ p {
 }
 
 .h2 {
-    color: rgb(0,230,255);
+    font-size:175%;
+    color: var(--secondary-color);
     text-align: center;
 }
 
