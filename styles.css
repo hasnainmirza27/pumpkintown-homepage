@@ -1,0 +1,128 @@
+
+.color-primary-0 { color: #FF6919 }	/* Main Primary color */
+.color-primary-1 { color: #FFAC7F }
+.color-primary-2 { color: #FF894A }
+.color-primary-3 { color: #F25400 }
+.color-primary-4 { color: #B23E00 }
+
+
+:root {
+    --main-color:#FF6919;
+    --dark-gray:#555555;
+    --mid-gray:#757575;
+    --light-gray:#909090;
+}
+
+body  {
+    background-color: var(--dark-gray);
+}
+
+div {
+    height: 100%;
+}
+
+div.container {
+    width: 70%;
+    margin:0% 15% 0% 15%;
+    min-height: inherit;
+    clear: both;
+    outline: thin solid var(--light-gray);
+}
+
+div.header {
+    padding-top: 10px;
+}
+
+div.columns {
+    height:720px;
+    display: block;
+    margin: 0 auto 3% auto;
+}
+
+div.content {
+    background-color: var(--light-gray);
+    margin:0% 1% 1% 0%;
+    padding: 0% 1% 2% 2%;
+    width: 77%;
+    float: right;
+    outline: thick solid var(--main-color);
+}
+
+div.sidebar {
+    background-color: var(--light-gray);
+    float: left;
+    margin: 0% 0% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    width: 15%;
+    outline: thick solid var(--mid-gray);
+}
+
+img  {
+    width:100%;
+}
+
+img.banner {
+    display: block;
+    margin: 0 auto;
+    max-width:70%;
+    max-height:100px;
+    outline: thick solid black;
+    margin-bottom:1%;
+}
+
+img.buttonpic {
+    outline: 2px outset rgb(100,100,150);
+}
+
+p {
+    font-family:"Palatino Linotype", Georgia, "Times New Roman",Serif;
+}
+
+.h1 {
+    font-size:250%;
+    color: var(--main-color);
+    text-align: center;
+    text-shadow: 2px 2px var(--dark-gray);
+}
+
+.h2 {
+    color: rgb(0,230,255);
+    text-align: center;
+}
+
+p.bigtext {
+}
+
+p.headline {
+    color: red;
+    font-size:125%;
+    font-weight: bold;
+    text-align: center;
+}
+
+span.boldblue {
+    color: rgb(0,0,255);
+    font-weight: bold;
+}
+
+span.boldred {
+    color: rgb(255,0,0);
+    font-weight: bold;
+}
+
+span.title {
+    font-size:112.5%;
+    text-decoration: underline;
+}
+
+span.underline {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+hr {
+    display: block;
+    border-width: 2px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
