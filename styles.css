@@ -145,6 +145,10 @@ span.boldblue {
     font-weight: bold;
 }
 
+span.redtext {
+    color: rgb(255,0,0);
+}
+
 span.boldred {
     color: rgb(255,0,0);
     font-weight: bold;
